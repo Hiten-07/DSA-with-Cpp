@@ -8,3 +8,13 @@
 **Algorithm:**
 * Step-by-step computational procedures used to perform operations on data, solve problems and achieve desired outcomes efficiently.
 * Together DSA enables the development of optimized and scalable software solutions, by determining the most effective way to structure data and the most efficient approach to processing it.
+
+**Data Structure:**
+
+<img width="654" height="414" alt="image" src="https://github.com/user-attachments/assets/a8141931-f814-4d0c-b605-035146fc960e" />
+
+**Flowchart & Pseudocode:**
+
+* A Flowchart is a visual representation of the logic or sequence of steps in a program or algorithm.
+* Pseudocode is a high level, human-readable desciption of an algorithm or program, logic that uses plain english mixed with programming style structure.
+* It is not written in a specific programming language, and it cannot be executed by a compiler.
