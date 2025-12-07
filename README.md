@@ -18,3 +18,17 @@
 * A Flowchart is a visual representation of the logic or sequence of steps in a program or algorithm.
 * Pseudocode is a high level, human-readable desciption of an algorithm or program, logic that uses plain english mixed with programming style structure.
 * It is not written in a specific programming language, and it cannot be executed by a compiler.
+
+**Flowchart: Diagram of Solution**
+
+<img width="914" height="735" alt="image" src="https://github.com/user-attachments/assets/3835798b-8a5a-4246-8d25-4dfe08260d9b" />
+
+**What is ASCII ?**
+
+* ASCII = American Standards of Code Information Interchange
+  
+**Pseudocode:**
+* General Logic of a Solution.
+* Step 1: input a & b
+* Step 2: sum = a + b
+* Step 3: print sum
