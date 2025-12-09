@@ -1,7 +1,5 @@
 # DSA-with-Cpp
 
-**Chapter 1: Flowchart & Pseudocode**
-
 **Data Structure:**
 * Systematic ways to organize, manage and store data for efficient access and modification.
   
@@ -93,3 +91,39 @@
   * Done automatically by the compiler when necessary.
  
   * Happens when you mixing difference type in an expression.
+ 
+  * Lower type are promoted to higher types.
+ 
+  * Promotion Order Lowest to Highest
+ 
+  * bool -> char -> int -> float -> double -> long double
+ 
+  **2) Type Casting:**
+
+  * Done manually by the programmer.
+ 
+  * There two main Forms:
+ 
+    1. C-style casting (old way from c-language)
+
+    2. C++ style casting (Modern, safer way) 
+
+**1. C-Style Casting:**
+
+* You forcefully change the data-type of a variable using parentheses and the type name.
+
+* Think of it like: "temporary treat this value as another type"
+
+  E.g: int a = 5;
+  
+  float b = (flaot)a; //tells the compiler to treat 'a' as float
+
+  **2. C++ style casting:**
+
+  * You use special C++ casting keyword like static cast that are clearer, safer and type specific.
+ 
+  * Think of it like: "Hey compiler, I specially want to convert this variable using the correct and safest method".
+ 
+  E.g: int a = 5;
+
+  float b = static_cast<float>(a);
