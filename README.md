@@ -32,3 +32,64 @@
 * Step 1: input a & b
 * Step 2: sum = a + b
 * Step 3: print sum
+
+* C++ is a Case Sensitive  Language
+
+  **Variables:**
+
+  * A Variable  in C++ is a named storage location in memory that holds a value which can be read, modified and reused during the execution of a program.
+    
+  * It has specific Data type such as int, float, char which determines the kind of data it can store and how much memory it will occupy.
+    
+  * Variavles are essential in C++ for storing data manipulating information and building logic in algorithm & Data structure.
+
+  **Variable Scope:**
+
+  * Local: Declared inside function or block - only accessible there.
+    
+  * Global: Declared outside all functions - accessible everywhere.
+ 
+  * Static: Retains it's value between function calls.
+ 
+  * Register: Stored in CPU register for quick access (Rarely used).
+ 
+  * Extern: Declared in one file, defined in another.
+ 
+  **Data Types:**
+
+  * A Data type in C++ specifies the type of data which a variable can hold.
+ 
+  * It defines the size, nature and operatitons that can be performed on the variable.
+ 
+  * C++ has two main categories of Data Types:
+ 
+  * 1) Primitive (Built-in) Data Types
+    2) Non-Primitive OR Used Defined & Derived Data Types
+   
+  **Why Data Types matters in DSA ?**
+
+  1) int is widely used for counters, indexes and sizes.
+ 
+  2) char helps in string / character problem.
+ 
+  3) bool is used in logic conditions and visited flags like Graph
+ 
+  4) Struct and class helps you to build complex data structures like Linked LIsts, Trees and Graphs.
+ 
+  **Type Conversion:**
+
+  * Type conversion refers to changing the data type of a variable from one type to another.
+ 
+  * it allows a value of one type like int to be treaed as another type like float. This is often necessary when mixing data types in expressions or passing arguments to functions.
+ 
+  **Types of Type Conversion:**
+
+  1) Implicit Type Conversion (Type Promotion / coercion)
+  
+  2) Explicit Type Conversion (Type Casting)
+ 
+  **1) Implicit:**
+
+  * Done automatically by the compiler when necessary.
+ 
+  * Happens when you mixing difference type in an expression.
