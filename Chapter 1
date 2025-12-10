@@ -1,1 +1,141 @@
+# DSA Lecture 1: Flowcharts & Pseudocode + Installation Notes  
 
+## **Series Overview & Objectives**   
+- **In-depth but simple** coverage of **Data Structures & Algorithms**  
+- **Problems Solved**:
+  1. No superficial pseudocode (complete clarity)   
+  2. **Optimal practice questions** (placement-focused)  
+- **Why DSA?** Tech interviews test **problem-solving** via DSA   
+
+---
+
+## **Problem-Solving Process**  
+```
+1. Understand Problem  
+2. Identify Inputs  
+3. Find Solution (Paper/Pen)  
+4. Convert to Code  
+```
+
+**Key**: Solve on paper FIRST → Code becomes easy  
+
+---
+
+## **Flowchart Components**  
+
+| **Shape** | **Purpose** | **Example** |
+|-----------|-------------|-------------|
+| **Oval** | Start/End | "Start", "Exit"   |
+| **Parallelogram** | Input/Output | "Input a, b", "Print sum"   |
+| **Rectangle** | Process/Calculation | "sum = a + b"   |
+| **Diamond** | Decision | "a < b?"   |
+
+**Arrows** show **flow direction**  
+
+---
+
+## **Pseudocode Rules**  
+- **English-like steps** (language-agnostic)  
+- **Ignore Start** (begins from step 1)  
+- **if/else** for decisions  
+- **while** for loops  
+
+---
+
+## **Example Solutions**
+
+### **1. Sum of Two Numbers**
+```
+Flowchart: Start → Input a,b → sum = a+b → Print sum → End
+Pseudocode:
+INPUT a, b
+sum = a + b
+PRINT sum  
+```
+
+### **2. Area of Square**
+```
+Flowchart: Start → Input a → area = a*a → Print area → End
+Pseudocode:
+INPUT a
+area = a * a
+PRINT area  
+```
+
+### **3. Minimum of Two Numbers** ⭐ **First Decision Block**
+```
+Pseudocode:
+INPUT a, b
+IF a < b
+    PRINT a
+ELSE
+    PRINT b  
+```
+
+### **4. Odd/Even** ⭐ **Modulo Operator**
+```
+Key Logic: n % 2 == 0? Even: Odd  
+Pseudocode:
+INPUT n
+IF (n % 2 == 0)
+    PRINT "Even"
+ELSE
+    PRINT "Odd"  
+```
+**% = Modulo** (remainder operator)  
+
+### **5. Sum 1 to N** ⭐ **First Loop Concept**
+```
+Pseudocode:
+INPUT n
+sum = 0
+count = 1
+WHILE count <= n
+    sum += count
+    count += 1
+PRINT sum  
+```
+
+### **6. Prime Number** ⭐ **Nested Loops**
+```
+Pseudocode:
+INPUT n
+i = 2
+WHILE i <= n-1
+    IF n % i == 0
+        PRINT "Non-Prime"
+        EXIT
+    ELSE
+        i += 1
+PRINT "Prime"  
+```
+
+---
+
+## **Key Programming Symbols**  
+```
+==  (Equal to check - NOT assignment)
+%   (Modulo/Remainder)
++=  (Increment: count += 1)
+```
+
+---
+
+## **Homework Problems**  
+1. **Simple Interest**: `SI = P * R * T`  
+2. **Maximum of Two Numbers** (reverse min logic)  
+3. **Factorial**: `n! = 1*2*3*...*n` (loop multiply)  
+4. **Driving License**: `age >= 18? Yes: No`  
+
+---
+
+## **Setup Instructions**  
+```
+1. Download VS Code: code.visualstudio.com  
+2. Install C++ Compiler (Windows/Mac separate)  
+3. Process: C++ Code → Compiler → Executable → Run  
+```
+
+**Recommendation**: Local setup > Online editors (long-term)  
+
+---
