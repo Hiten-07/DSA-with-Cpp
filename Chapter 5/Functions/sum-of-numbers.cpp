@@ -1,5 +1,5 @@
 /*
-Calculate sum of digits of a nuumber*/
+Calculate sum of digits of a number*/
 
 #include<iostream>
 using namespace std;
@@ -20,4 +20,5 @@ int sumOfDigits(int num) {
 int main() {
     cout<<sumOfDigits(2356)<<endl;
     return 0;
+
 }
