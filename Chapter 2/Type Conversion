@@ -1,0 +1,3 @@
+Type Conversion refers to  changing the data types of a variable from one type to another.
+It allows a value of one typw to be treated as another type. e.g int -> float
+This is often necessary when mixing data types in expressions or passing arguments to functions.
