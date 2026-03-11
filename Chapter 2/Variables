@@ -1,0 +1,3 @@
+A Variable in C++ is a named storage location in memory that holds a value which can be read, modified and reused during the execution of a program.
+It has specific data types such as int, float, char etc. Which determines the kind of data it can store and how much memory it will occupy.
+Variables are essential in c++ for storing data, manipulating information and building logic in algorithms and data structures.
