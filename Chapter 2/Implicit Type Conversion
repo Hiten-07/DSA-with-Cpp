@@ -1,0 +1,5 @@
+Done automatically by the compiler when nnecessary.
+Happens when you mixing different type in an expression.
+Lower type are promoted to higher types.
+Promotional Order : Lowest to Highest
+bool -> char -> int -> float -> double -> long double
