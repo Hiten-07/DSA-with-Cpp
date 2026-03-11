@@ -1,0 +1,10 @@
+Done Manually by the programmer.
+There are two main forms :
+1. C-Style Casting = old way
+2. C++ Style Cating = Modern , safer way
+
+C-Style Casting :
+You forcefully change the data type of a variable using parentheses and the type name.
+
+C++ Style Casting :
+You use special C++ Casting keyword like static_cast that are clearer, safer and type specific.
