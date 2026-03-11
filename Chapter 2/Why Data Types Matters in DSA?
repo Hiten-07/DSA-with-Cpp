@@ -1,0 +1,4 @@
+int is widely used for routers, indexes and sizes.
+char helps in string / character problems.
+bool is used in logic conditions and visited flags e.g graphs
+struct and class helps you to build complex data structures like linked list, trees, and graphs.
