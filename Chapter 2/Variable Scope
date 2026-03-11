@@ -1,0 +1,5 @@
+1. Local : Declared inside function / Block -- only accessible there.
+2. Global : Declared outside all function -- accessible everywhere.
+3. Static : Retains its value between function calls.
+4. Register : Stored in CPU registers for quick access -- rarely used now.
+5. Extern : Declared in one file, defined in another.
