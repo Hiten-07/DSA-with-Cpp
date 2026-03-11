@@ -1,0 +1,5 @@
+A Data Type in C++ specifies the type of data a variable can hold.
+It defines the size, nature and operations that can be performed on the variable.
+C++ has two main categories of Data Types :
+1. Primitive [Built-in] 
+2. Non-Primitive / User Defined / Derived 
