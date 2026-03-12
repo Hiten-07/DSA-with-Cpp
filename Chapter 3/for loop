@@ -1,0 +1,7 @@
+for(initialization ; condition ; updation) {
+//statement
+}
+
+initialization : run once at the start
+condition : checked before each iteration : loop runs while true
+updation : changes the loop variablee each time
