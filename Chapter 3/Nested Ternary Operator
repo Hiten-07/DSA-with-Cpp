@@ -1,0 +1,3 @@
+string grade = (marks >= 90) ? "A":
+               (marks >= 75) ? "B":
+               (Marks >= 50) ? "C": "FAIL";
