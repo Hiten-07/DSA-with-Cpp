@@ -1,0 +1,9 @@
+if(condition1) {
+//statement if condition 1 is true
+}
+else if(condition2) {
+//statement if condition 2 is true
+}
+else {
+//statement if condition is false
+}
