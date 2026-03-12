@@ -1,0 +1,8 @@
+-> Loop inside loop
+
+for(initialization ; condition ; updation) {
+    for(initialization ; condition ; updation) {
+          //inner loop
+    }
+//outer loop
+}
