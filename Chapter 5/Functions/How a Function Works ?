@@ -1,0 +1,8 @@
+1. You define It
+You create a function and tell c++ what task it perform.
+
+2. You call it
+Somewhere else in your program you use the function.
+
+3. It executes and return
+The function runs it code and may return a value back.
