@@ -1,0 +1,4 @@
+condition ? expression1 : expression2;
+
+expression1 -> if condition is true
+expression2 -> if condition is false
