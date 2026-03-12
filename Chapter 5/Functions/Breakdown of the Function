@@ -1,0 +1,14 @@
+1. Function gets memmory
+When a function is called c++ creates a small temporary memory area called a stack frame to store :
+parameters
+local variables
+
+2. Input (parameters) are copied into that memory.
+if you call (3,5) the function receives :
+a = 3 , b = 5
+
+3. Function runs its statement
+Inside the function it executes line by line
+
+4. If there is a return value it sends it back.
+when the function ends its temporary memory deletes.
