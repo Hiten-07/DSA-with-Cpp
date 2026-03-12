@@ -1,0 +1,11 @@
+In Data sstructures and Algorithms functions are used to perform operations on data.
+Think of each operation in Data structure as a function.
+
+e.g
+Arrays -> search() , update()
+stack -> push() , pop()
+Queue -> enqueue() , dequeue()
+Linked List -> insert() , delete() , traverse()
+Tree -> insertNode() , searchNode() , inorder()
+Graph -> addEdge() , bfs() , dfs()
+Algorithm -> binarySearch() , mergesort() , dijkstra()
