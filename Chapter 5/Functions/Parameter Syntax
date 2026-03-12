@@ -1,0 +1,3 @@
+returnType funName (type p1, type p2, ...) {
+  //code
+}
