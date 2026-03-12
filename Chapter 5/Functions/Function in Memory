@@ -1,0 +1,16 @@
+When your c++ program runs , memory is devided into sections.
+one of them is the code segment also called text segment.
+This is where the actual machine instructions of the function are stored.
+So, the functions code lives in the code segment.
+This part of memory is read only so the program cannot modify its own code.
+Think of it as : Blueprints stored safely in an library.
+whenever you call a function the program creates a stack frame on the stack memory.
+A Stack frame contains :
+parameters
+local variables
+return address
+temporary space for calculations
+And when the function finishes :
+its entire stack frame is deleted automatically.
+Think of it as :
+" A Temoporary workspace that appears during the function call and disappears when done."
