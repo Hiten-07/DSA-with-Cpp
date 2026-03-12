@@ -1,0 +1,3 @@
+returnType printHello() {
+cout << "Hello";
+}
