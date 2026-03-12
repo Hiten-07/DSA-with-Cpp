@@ -1,0 +1,18 @@
+When you call a function by value :
+A copy of the arguments is made and stored in the functions stack frame.
+So, the function works on the copy not the original.
+
+if you call :
+x = 10
+f(x)
+
+Inside thhe function :
+It receives a copy of 10.
+Changing the copy does not change x in main.
+
+How it works in memory ?
+Pass by value creates :
+A new memoy location in functions stack frame.
+The original variable stays in the callers stack frame.
+Modifying the parameters only changes the copy.
+
